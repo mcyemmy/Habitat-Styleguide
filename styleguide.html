@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+   <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>Habitat Styleguide</title>
+    
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/bootstrap/bootstrap-3.3.7.css" rel="stylesheet" />
+	<link href="css/styleguide.css" rel="stylesheet" />
+	
+    <script src="scripts/jquery/jquery-3.1.1.js"></script>
+    <script src="scripts/bootstrap/bootstrap-3.3.7.js"></script>
+    <script src="scripts/styleguide.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="panel panel-default" id="content-formatting">
+                    <div class="panel-heading">
+                       Company Logo
+                    </div>
+                    <div class="panel-body">
+                        <a class="navbar-brand " href="#">
+                          <span class="logo">
+                            <img src="images/habitat-logo.png" alt="Your Logo title" width="200" height="50">
+                          </span>
+                        </a>
+                    </div>
+                </div>
+           </div>
+           <div class="col-md-6">
+                <div class="panel panel-default" id="content-formatting">
+                    <div class="panel-heading">
+                       Menu bars (Will normally be hiden on Desktop viewsports)
+                    </div>
+                    <div class="panel-body">
+                       <!-- By bootstrap default, this component will only display at device-widths below 768px -->
+                       
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#siteNavbar" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <div class="row">
+           <div class="col-md-6">
+                <div class="panel panel-default" id="content-formatting">
+                    <div class="panel-heading">
+                        Social Icons (FontAwesome)
+                    </div>
+                    <div class="panel-body">
+                        <nav>
+                          <ul class="nav nav-service navbar-nav nav-social">
+                              <li class="">
+                                <a href="http://facebook.com/sitecore" target="_blank" title="Facebook" class="btn btn-social-icon btn-facebook">
+                                    <span class="fa fa-facebook"></span>
+                                </a>
+                              </li>
+                              <li class="">
+                                <a href="http://twitter.com/sitecore" target="_blank" title="Twitter" class="btn btn-social-icon btn-twitter">
+                                    <span class="fa fa-twitter"></span>
+                                </a>
+                              </li>
+                              <li class="">
+                                <a href="https://www.youtube.com/user/sitecorechannel" target="_blank" title="YouTube" class="btn btn-social-icon btn-youtube">
+                                    <span class="fa fa-youtube"></span>
+                                </a>
+                              </li>
+                          </ul>
+                        </nav>
+                    </div>
+                </div>
+           </div>
+           <div class="col-md-6">
+                <div class="panel panel-default" id="content-formatting">
+                    <div class="panel-heading">
+                        Nav with dropdowns (Vertical and Toggles on Mobile)
+                    </div>
+                    <div class="panel-body">
+                        <div class="navbar-center">
+                            <div class="collapse navbar-collapse" id="siteNavbar">
+                                <ul class="nav navbar-nav">
+                                    <li class="">
+                                        <a class="text-uppercase" href="#" target="">
+                                          Home
+                                        </a>
+                                    </li>
+                                    <li class=" dropdown">
+                                        <a href="#" class="dropdown-toggle text-uppercase" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                          About Habitat<span class="caret"></span>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li class="">
+                                              <a href="#" target="">Introduction</a>
+                                            </li>
+                                            <li class="">
+                                              <a href="#" target="">Getting Started</a>
+                                            </li>
+                                            <li class="">
+                                              <a href="#" target="_blank">Helix Documentation</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class=" dropdown">
+                                        <a href="#" class="dropdown-toggle text-uppercase" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                          Modules<span class="caret"></span>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li class="">
+                                              <a href="#" target="">Project</a>
+                                            </li>
+                                            <li class="">
+                                              <a href="#" target="">Feature</a>
+                                            </li>
+                                            <li class="">
+                                              <a href="#" target="">Foundation</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="">
+                                        <a class="text-uppercase" href="#" target="">
+                                          More Info
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <div class="row">
+           <div class="col-md-6">
+                <div class="panel panel-default" id="content-formatting">
+                    <div class="panel-heading">
+                        Icon with dropdown Menu
+                    </div>
+                    <div class="panel-body">
+                        <a href="#" class="btn dropdown-toggle" data-toggle="dropdown" title="#">
+                            <i class="fa fa-home"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="active">
+                                <a href="#">Habitat Finance</a>
+                            </li>
+                            <li class="">
+                                <a href="#">Habitat Legal</a>
+                            </li>
+                            <li class="">
+                                <a href="#">Habitat Utilities</a>
+                            </li>
+                            <li class="">
+                                <a href="#">About Habitat</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+           </div>
+           <div class="col-md-6">
+                <div class="panel panel-default" id="content-formatting">
+                    <div class="panel-heading">
+                        Icon with dropdown Login form
+                    </div>
+                    <div class="panel-body">
+                        <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                          <i class="fa fa-user"></i>
+                        </a>      
+                        <div class="dropdown-menu">
+                            <h4>Login</h4>
+                            <form id="loginModal">
+                                <div class="login-body">  
+                                  <div class="form-group">
+                                    <label class="control-label" for="Email">E-mail</label>
+                                    <input class="form-control" id="popupLoginEmail" name="Email" placeholder="Enter your e-mail" type="text" value="">
+                                  </div>
+                                  <div class="form-group">
+                                    <label class="control-label" for="Password">Password</label>
+                                    <input class="form-control" id="popupLoginPassword" name="Password" placeholder="Enter your password" type="password">
+                                  </div>
+                                  <button type="button" class="btn btn-block btn-primary" onclick="login('loginModal')">Login</button>
+                                  <a class="btn btn-block btn-default" href="#">Forgot your password?</a>
+                                  <a class="btn btn-block btn-default" href="#">Register</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default" id="content-formatting">
+                    <div class="panel-heading">
+                        Layout
+                    </div>
+                    <div class="panel-body layout">
+                          <div class="col-md-12">
+                                col-md-12
+                          </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default" id="content-formatting">
+                    <div class="panel-heading">
+                        Layout
+                    </div>
+                    <div class="panel-body layout">
+                          <div class="col-md-3">
+                                col-md-3
+                          </div>
+                          <div class="col-md-9">
+                                Col-md-9
+                          </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default" id="content-formatting">
+                    <div class="panel-heading">
+                        Layout
+                    </div>
+                    <div class="panel-body layout">
+                          <div class="col-md-4">
+                                col-md-4
+                          </div>
+                          <div class="col-md-8">
+                                Col-md-8
+                          </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default" id="content-formatting">
+                    <div class="panel-heading">
+                        Layout
+                    </div>
+                    <div class="panel-body layout">
+                          <div class="col-md-6">
+                                col-md-6
+                          </div>
+                          <div class="col-md-6">
+                                Col-md-6
+                          </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default" id="content-formatting">
+                    <div class="panel-heading">
+                        Layout
+                    </div>
+                    <div class="panel-body layout">
+                          <div class="col-md-8">
+                                col-md-8
+                          </div>
+                          <div class="col-md-4">
+                                Col-md-4
+                          </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default" id="content-formatting">
+                    <div class="panel-heading">
+                        Layout
+                    </div>
+                    <div class="panel-body layout">
+                          <div class="col-md-9">
+                                col-md-9
+                          </div>
+                          <div class="col-md-3">
+                                Col-md-3
+                          </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default" id="content-formatting">
+                    <div class="panel-heading">
+                        Layout
+                    </div>
+                    <div class="panel-body layout">
+                          <div class="col-sm-3">
+                                col-sm-3
+                          </div>
+                          <div class="col-sm-3">
+                                col-sm-3
+                          </div>
+                          <div class="col-sm-6">
+                                col-sm-6
+                          </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default" id="content-formatting">
+                    <div class="panel-heading">
+                        Layout
+                    </div>
+                    <div class="panel-body layout">
+                          <div class="col-sm-4">
+                                col-sm-4
+                          </div>
+                          <div class="col-sm-4">
+                                col-sm-4
+                          </div>
+                          <div class="col-sm-4">
+                                col-sm-4
+                          </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default" id="content-formatting">
+                    <div class="panel-heading">
+                        Layout
+                    </div>
+                    <div class="panel-body layout">
+                          <div class="col-lg-6 col-md-12">
+                                col-lg-6 col-md-12
+                          </div>
+                          <div class="col-lg-3 col-sm-6">
+                                col-lg-3 col-sm-6
+                          </div>
+                          <div class="col-lg-3 col-sm-6">
+                                col-lg-3 col-sm-6
+                          </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default" id="content-formatting">
+                    <div class="panel-heading">
+                        Layout
+                    </div>
+                    <div class="panel-body layout">
+                          <div class="col-md-2 col-sm-6">
+                                col-md-2 col-sm-6
+                          </div>
+                          <div class="col-md-2 col-sm-6">
+                                col-md-2 col-sm-6
+                          </div>
+                          <div class="col-md-4 col-sm-6">
+                                col-md-4 col-sm-6
+                          </div>
+                          <div class="col-md-4 col-sm-6">
+                                col-md-4 col-sm-6
+                          </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default" id="content-formatting">
+                    <div class="panel-heading">
+                        Layout
+                    </div>
+                    <div class="panel-body layout">
+                          <div class="col-sm-3">
+                                col-sm-3
+                          </div>
+                          <div class="col-sm-3">
+                                col-sm-3
+                          </div>
+                          <div class="col-sm-3">
+                                col-sm-3
+                          </div>
+                          <div class="col-sm-3">
+                                col-sm-3
+                          </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+
+    <!-- Modal for code poppup -->
+    <div id="source-modal" class="modal fade">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title">Source Code</h4>
+                </div>
+                <div class="modal-body">
+                    <pre></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>        
+                    
+<!-- Script to pop up code view -->
+    <script>
+        (function () {
+            // Button that opens window with code from panel-body
+            var $button = $("<div id='source-button' class='btn btn-primary label'>&lt; code &gt;</div>").click(function () {
+                var html = $(this).closest('.panel').children('.panel-body').html();
+
+                html = cleanSource(html);
+                $("#source-modal pre").text(html);
+                $("#source-modal").modal();
+            });
+
+            function cleanSource(html) {
+                html = html.replace(/×/g, "&times;")
+                            .replace(/«/g, "&laquo;")
+                            .replace(/»/g, "&raquo;")
+                            .replace(/←/g, "&larr;")
+                            .replace(/→/g, "&rarr;");
+
+                var lines = html.split(/\n/);
+
+                lines.shift();
+                lines.splice(-1, 1);
+
+                var indentSize = lines[0].length - lines[0].trim().length,
+                    re = new RegExp(" {" + indentSize + "}");
+
+                lines = lines.map(function (line) {
+                    if (line.match(re)) {
+                        line = line.substring(indentSize);
+                    }
+
+                    return line;
+                });
+
+                lines = lines.join("\n");
+
+                return lines;
+            }
+
+            // Button that toggles panel to be stuck
+            var $sticky = $("<div id='sticky-button' class='btn btn-info label pull-right'>sticky</div>").click(function () {
+                $(this).closest('.panel').add('.panel-info').toggleClass('panel-info');
+            });
+
+            // On resize, scroll to the stuck panel
+            var resize;
+            $(this).resize(function () {
+                clearTimeout(resize);
+                resize = setTimeout(moveToPanel, 200);                
+            });
+
+            function moveToPanel() {
+                if ($(".panel-info").length > 0) {
+                    $("html, body").animate({
+                        scrollTop: $(".panel-info").offset().top
+                    }, 200);
+                }
+            }
+
+            $(".panel").hover(function () {
+                $(this).children('.panel-heading').append($button);
+                $(this).children('.panel-heading').append($sticky);
+                $button.show();
+                $sticky.show();
+            }, function () {
+                $button.hide();
+                $sticky.hide();
+            });
+        })();
+    </script>
+</body>
+</html>

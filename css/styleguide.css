@@ -1,0 +1,30 @@
+/* This file contains styles that are specific to the styleguide document not to its components */
+/* For example, the icon-bar class and navbar-toggle class below helps to make the menu bars to be visible in the styleguide document and should not be regarded as part of its intrisic property styles */
+
+.icon-bar {
+    background-color: #666;
+}
+/* Add this if you want it to also show on device-widths above 768px */
+@media (min-width: 768px) { 
+    .navbar-toggle {
+        display: block;
+        float: none;
+    }
+}
+.layout [class^=col-] {
+    height: 40px;
+    color: #fff;
+    text-align: center;
+}
+.layout [class^=col-]:nth-child(1) {
+    background-color: #0096bb;
+}
+.layout [class^=col-]:nth-child(2) {
+    background-color: #23356f;
+}
+.layout [class^=col-]:nth-child(3) {
+    background-color: #ff8c00;
+}
+.layout [class^=col-]:nth-child(4) {
+    background-color: #000;
+}
